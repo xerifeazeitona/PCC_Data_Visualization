@@ -7,7 +7,7 @@ from plotly import offline
 
 from die import Die
 
-# Create two d6
+# Create a d6 and a d10
 die_1 = Die()
 die_2 = Die(10)
 
