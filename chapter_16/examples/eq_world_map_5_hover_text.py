@@ -12,7 +12,6 @@ from plotly import offline
 
 # Explore the structure of the data.
 filename = '../data/eq_data_30_day_m1.json'
-filename = '/home/korporal/labs/PCC_Data_Visualization/chapter_16/data/eq_data_30_day_m1.json'
 with open(filename) as file_obj:
     all_eq_data = json.load(file_obj)
 
