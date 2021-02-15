@@ -26,7 +26,7 @@ for submission_id in submission_ids[:30]:
     print(f"id: {submission_id}\tstatus: {r.status_code}")
     response_dict = r.json()
 
-    
+
     try:
         # Build a dictionary for each article.
         submission_dict = {
